@@ -97,8 +97,10 @@ function Menu ({ className = '' }: Props): React.ReactElement<Props> {
 
   const externalRef = useRef(createExternals(t));
   const routeRef = useRef(createRoutes(t));
-
+  
+// geode changes - 20230131 -
   const groupRef = useRef({
+    geode: t('Geode'),
     accounts: t('Accounts'),
     developer: t('Developer'),
     files: t('Files'),
