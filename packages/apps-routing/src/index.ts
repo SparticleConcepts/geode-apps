@@ -4,6 +4,7 @@
 import type { TFunction } from 'i18next';
 import type { Routes } from './types';
 
+import geode from './geode';
 import accounts from './accounts';
 import addresses from './addresses';
 import alliance from './alliance';
@@ -50,6 +51,7 @@ export default function create (t: TFunction): Routes {
     accounts(t),
     addresses(t),
     explorer(t),
+    geode(t),
     claims(t),
     poll(t),
     transfer(t),
