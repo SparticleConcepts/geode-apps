@@ -1,4 +1,4 @@
-// Copyright 2017-2023 @polkadot/app-settings authors & contributors
+// Copyright 2017-2023 @blockandpurpose.com
 // SPDX-License-Identifier: Apache-2.0
 
 import React from 'react';
@@ -8,6 +8,7 @@ import { Table } from '@polkadot/react-components';
 import Summary from './Summary';
 import Details from './Details';
 import SearchAccountID from './SearchAccountID';
+import SearchKeyword from './SearchKeyword';
 
 //import { useApi } from '@polkadot/react-hooks';
 
@@ -24,7 +25,8 @@ export default function LifeAndWork (): React.ReactElement {
         <Table >
             <Summary />
             <Details />   
-            <SearchAccountID />         
+            <SearchAccountID />    
+            <SearchKeyword />     
         </Table>
     </div>
   );
