@@ -28,16 +28,16 @@ interface Props {
 function createExternals (t: TFunction): ItemRoute[] {
   return [
     {
-      href: 'https://github.com/polkadot-js/apps',
+      href: 'https://github.com/SparticleConcepts/geode-apps',
       icon: 'code-branch',
       name: 'github',
       text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' })
     },
     {
-      href: 'https://wiki.polkadot.network',
+      href: 'http://geodechain.com',
       icon: 'book',
       name: 'wiki',
-      text: t<string>('nav.wiki', 'Wiki', { ns: 'apps-routing' })
+      text: t<string>('nav.wiki', 'Help', { ns: 'apps-routing' })
     }
   ];
 }
