@@ -223,7 +223,7 @@ import nodeSubsocial from './nodes/subsocial.svg';
 import nodeSubsocialX from './nodes/subsocialX.svg';
 import nodeSubspace from './nodes/subspace.png';
 import nodeSubstrateContractsNode from './nodes/substrate-contracts-node.png';
-import nodeSubstrate from './nodes/substrate-hexagon.svg';
+import nodeSubstrate from './nodes/GeodeLogo.svg';
 import nodeSwapdex from './nodes/swapdex.svg';
 import nodeTernoa from './nodes/ternoa.svg';
 import nodeTheBifrost from './nodes/thebifrost.png';
