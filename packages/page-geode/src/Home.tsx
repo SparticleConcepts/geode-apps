@@ -1,10 +1,10 @@
-// Copyright 2017-2023 @polkadot/app-settings authors & contributors
+// Copyright 2017-2023 @blockandpurpose Home.tsx authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import React from 'react';
-
+import { Label } from 'semantic-ui-react';
 //import { useApi } from '@polkadot/react-hooks';
-import { Button, Card, CardSummary, SummaryBox } from '@polkadot/react-components';
+import { Card, CardSummary, SummaryBox } from '@polkadot/react-components';
 
 //import useChainInfo from '../useChainInfo';
 //import Extensions from './Extensions';
@@ -67,6 +67,14 @@ const GoToGitHub = () => {
   )
 }
 
+// const BuyGeode = () => {
+//   return(
+//     <div>
+//     <a href={"https://kathryncolleen.com/studio/geode-blockchain/"}>
+//     </a></div>
+//   )
+// }
+
   return (
     <div>
       <SummaryBox>        
@@ -95,10 +103,14 @@ const GoToGitHub = () => {
       </SummaryBox>
 
       <Card>
-          <Button 
-              icon='dollar'
-          />
-          <strong>Current Coin Price:</strong>{currentCoinPrice}<br />
+      <Label circular color='orange'
+          as='a' 
+          href='https://kathryncolleen.com/studio/geode-blockchain/'
+          >
+            {' Buy '}
+          </Label>
+
+          <strong>Current Coin Price:</strong>{currentCoinPrice}<br /><br />
           Buy GEODE coin to use the apps here in the ecosystem, to increase your voting power on community decisions, to stake
           yourself as a validator or nominator, and to buy and sell products and services on the network. The GEODE coin is NOT a
           currency, security, or an investment of any kind and should not be used for speculation.<br />
