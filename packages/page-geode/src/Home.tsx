@@ -106,6 +106,8 @@ const GoToGitHub = () => {
       <Label circular color='orange'
           as='a' 
           href='https://kathryncolleen.com/studio/geode-blockchain/'
+          target="_blank" 
+          rel="noopener noreferrer"
           >
             {' Buy '}
           </Label>
