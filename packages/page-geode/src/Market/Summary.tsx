@@ -6,7 +6,7 @@ import React from 'react';
 import { CardSummary, SummaryBox } from '@polkadot/react-components';
 //import { formatNumber } from '@polkadot/util';
 
-import { useTranslation } from '../translate';
+//import { useTranslation } from '../translate';
 
 // interface Props {
 //   className?: string;
@@ -14,18 +14,14 @@ import { useTranslation } from '../translate';
 // }
 
 function Summary (): React.ReactElement {
-  const { t } = useTranslation();
-  const linkCount = 5;
-  const itemCount = 0;
+  // const { t } = useTranslation();
+  // const linkCount = 5;
+  // const itemCount = 0;
   return (
     <div>
     <SummaryBox>
-      <strong>Geode Marketing</strong>
-      <CardSummary label={t<string>('Links')}>
-      <strong>{linkCount}</strong>
-      </CardSummary>
-      <CardSummary label={t<string>('Items')}>
-      <strong>{itemCount}</strong>
+      <CardSummary label={''}>
+      Geode Market
       </CardSummary>
     </SummaryBox>
     </div>
