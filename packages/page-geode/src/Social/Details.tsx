@@ -24,7 +24,11 @@ function Details (): React.ReactElement {
         <strong>Geode Social Media</strong>
     </Card>
     <Card>
-        Coming Soon!
+    <strong> Coming Soon! </strong> Follow your favorite accounts and post your own 140 
+    character public broadcast messages that cannot be deleted, altered 
+    or censored! While you are at it, isn't it time you got paid directly 
+    for your time and attention? Let people know what you are interested in 
+    seeing and let advertisers pay YOU directly to include their posts in your feed.  
     </Card>
     </div>
   );
