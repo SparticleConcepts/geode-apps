@@ -25,7 +25,10 @@ const currentCoinPrice = '$1.00';
 const BlockandPurpose = () => {
   return (
       <div>				
-        <a href={"https://blockandpurpose.com"}> 
+        <a href={"https://blockandpurpose.com"}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+        > 
         Block and Purpose Home Page </a>
       </div> 
   )
@@ -34,7 +37,10 @@ const BlockandPurpose = () => {
 const GeodeWhitePaper = () => {
   return(
   <div>
-    <a href={"https://blockandpurpose.com/wp-content/uploads/2022/10/Geode-Blockchain-Whitepaper-V2022_10_03.pdf"}>
+    <a href={"https://blockandpurpose.com/wp-content/uploads/2022/10/Geode-Blockchain-Whitepaper-V2022_10_03.pdf"}
+              target="_blank" 
+              rel="noopener noreferrer"
+    >
     Geode White Paper
     </a></div>
   )
@@ -43,7 +49,10 @@ const GeodeWhitePaper = () => {
 const DiscordConnection = () => {
   return(
     <div>
-    <a href={"https://discord.com/invite/2v4DPxDQXt"}>
+    <a href={"https://discord.com/invite/2v4DPxDQXt"}
+              target="_blank" 
+              rel="noopener noreferrer"
+    >
     Join Us on Discord
     </a></div>
   )
@@ -52,7 +61,10 @@ const DiscordConnection = () => {
 const SignUpForAnnouncements = () => {
   return(
     <div>
-    <a href={"https://blockandpurpose.com/announcements/"}>
+    <a href={"https://blockandpurpose.com/announcements/"}
+              target="_blank" 
+              rel="noopener noreferrer"
+    >
     Sign up for Announcements
     </a></div>
   )
@@ -61,7 +73,10 @@ const SignUpForAnnouncements = () => {
 const GoToGitHub = () => {
   return(
     <div>
-    <a href={"https://github.com/SparticleConcepts"}>
+    <a href={"https://github.com/SparticleConcepts"}
+              target="_blank" 
+              rel="noopener noreferrer"    
+    >
     Go to Geode on GitHub
     </a></div>
   )
@@ -85,7 +100,10 @@ const GoToGitHub = () => {
       <Card>
           <strong>GETTING STARTED...</strong><br /><br />
           <strong>Step 1:</strong>  
-          <a href={'https://polkadot.js.org/extension/'}> <strong> Get The "Polkadot" Chrome Extension </strong></a> <br /><br />
+          <a href={'https://polkadot.js.org/extension/'}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+          > <strong> Get The "Polkadot" Chrome Extension </strong></a> <br /><br />
           <strong>Step 2: Use the extension to make an account</strong>  <br />
           With great freedom, comes great responsibility. Be sure to write down your secret phrase, account key, password and anything
           else. There is no centralized server keeping track of your account. That is up to YOU. Keep it safe! If you lose it, you cannot get it
