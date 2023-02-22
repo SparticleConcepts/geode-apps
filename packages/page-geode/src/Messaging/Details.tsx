@@ -24,7 +24,10 @@ function Details (): React.ReactElement {
         <strong>Geode Private Messaging</strong>
     </Card>
     <Card>
-        On Chain Messaging Coming Soon!
+    <strong>Coming Soon!</strong> Private short form messaging between Geode 
+    accounts! While you are at it, isn't it time you got paid for your time 
+    and attention? Let people know what you are interested in seeing and let 
+    advertisers, recruiters, and others pay YOU directly to send DMs to your inbox. 
     </Card>
     </div>
   );
